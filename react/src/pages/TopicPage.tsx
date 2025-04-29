@@ -1,5 +1,5 @@
-import { TopicType } from "../components/Sidebar";
 import { useParams } from "react-router-dom";
+import { TopicType } from "../types/TopicType";
 
 function TopicPage({ topics }: { topics: TopicType[] }) {
   const { topicId } = useParams<{ topicId: string }>();

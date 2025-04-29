@@ -1,8 +1,9 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import TopicPage from "./pages/TopicPage";
-import Sidebar, { TopicType } from "./components/Sidebar";
+import Sidebar from "./components/Sidebar";
 import { useFetchData } from "./hooks/useFetchData";
 import NotFoundPage from "./pages/NotFound";
+import { TopicType } from "./types/TopicType";
 
 function App() {
   const { data, error, loading } = useFetchData<TopicType[]>("/topics.json");

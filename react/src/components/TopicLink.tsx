@@ -1,5 +1,5 @@
-import { TopicType } from "./Sidebar";
 import { NavLink } from "react-router-dom";
+import { TopicType } from "../types/TopicType";
 
 function TopicLink({ topic }: { topic: TopicType }) {
   return (

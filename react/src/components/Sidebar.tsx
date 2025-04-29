@@ -1,11 +1,5 @@
+import { TopicType } from "../types/TopicType";
 import TopicLink from "./TopicLink";
-
-export type TopicType = {
-  id: string;
-  title: string;
-  content: string;
-};
-
 function Sidebar({ topics }: { topics: TopicType[] }) {
   return (
     <nav className="navbar">

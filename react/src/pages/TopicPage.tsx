@@ -4,7 +4,7 @@ import { TopicType } from "../types/TopicType";
 function TopicPage({ topics }: { topics: TopicType[] }) {
   const { topicId } = useParams<{ topicId: string }>();
   const currentTopic = topics.find((topic) => topic.id === topicId);
-  if (!topicId || !currentTopic) return "Topic Not Found";
+  if (!topicId || !currentTopic) return <article>Topic Not Found</article>;
 
   return (
     <article>

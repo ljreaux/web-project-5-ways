@@ -1,0 +1,52 @@
+[
+  {
+    "id": "getting-started",
+    "title": "Getting Started",
+    "content": "Welcome to the knowledge base! Learn how to navigate and explore topics."
+  },
+  {
+    "id": "installation",
+    "title": "Installation",
+    "content": "How to install the app on your device. Covers system requirements and setup steps."
+  },
+  {
+    "id": "account-setup",
+    "title": "Account Setup",
+    "content": "Create your account, configure your profile, and set security options."
+  },
+  {
+    "id": "troubleshooting",
+    "title": "Troubleshooting",
+    "content": "Common issues and how to resolve them. Includes login problems, crashes, and data sync."
+  },
+  {
+    "id": "advanced-configuration",
+    "title": "Advanced Configuration",
+    "content": "Fine-tune your experience with advanced settings, integrations, and customizations."
+  },
+  {
+    "id": "faq",
+    "title": "Frequently Asked Questions",
+    "content": "Answers to the most common questions users ask about the app."
+  },
+  {
+    "id": "privacy-policy",
+    "title": "Privacy Policy",
+    "content": "Details on how your data is collected, stored, and protected."
+  },
+  {
+    "id": "terms-of-service",
+    "title": "Terms of Service",
+    "content": "Rules and guidelines you agree to when using the application."
+  },
+  {
+    "id": "release-notes",
+    "title": "Release Notes",
+    "content": "Latest changes, improvements, and bug fixes by version."
+  },
+  {
+    "id": "contributing",
+    "title": "Contributing",
+    "content": "How you can contribute to the project, submit bug reports, and suggest features."
+  }
+]

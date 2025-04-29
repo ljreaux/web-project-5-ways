@@ -8,7 +8,7 @@ import { TopicType } from "./types/TopicType";
 function App() {
   const { data, error, loading } = useFetchData<TopicType[]>("/topics.json");
 
-  if (loading) return loading;
+  if (loading) return <div>Loading...</div>;
   if (error || !data) return <div>Error loading topics.</div>;
   return (
     <BrowserRouter>
